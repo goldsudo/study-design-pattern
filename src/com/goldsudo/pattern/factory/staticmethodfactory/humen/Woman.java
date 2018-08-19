@@ -1,6 +1,8 @@
-package com.goldsudo.pattern.factory.staticmethodfactory;
+package com.goldsudo.pattern.factory.staticmethodfactory.humen;
 
-public class Woman implements Humen{
+import com.goldsudo.pattern.factory.staticmethodfactory.humen.Humen;
+
+public class Woman implements Humen {
 
     @Override
     public void eat() {
