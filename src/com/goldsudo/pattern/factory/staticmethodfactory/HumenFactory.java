@@ -1,5 +1,9 @@
 package com.goldsudo.pattern.factory.staticmethodfactory;
 
+import com.goldsudo.pattern.factory.staticmethodfactory.humen.Humen;
+import com.goldsudo.pattern.factory.staticmethodfactory.humen.Man;
+import com.goldsudo.pattern.factory.staticmethodfactory.humen.Woman;
+
 public class HumenFactory {
     public static Man createMan() {
         return new Man();
