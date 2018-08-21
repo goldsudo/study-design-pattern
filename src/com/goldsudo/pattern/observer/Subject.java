@@ -31,13 +31,17 @@ public class Subject {
     }
 
     public static void main(String[] args) {
+        //生产三个观察者
         Observer observer1 = new Observer1();
         Observer observer2 = new Observer2();
         Observer observer3 = new Observer3();
+        //生成一个被观察者
         Subject subject = new Subject();
+        //订阅
         subject.attach(observer1);
         subject.attach(observer2);
         subject.attach(observer3);
+        //发布
         subject.setMsg("msg change");
     }
 }
