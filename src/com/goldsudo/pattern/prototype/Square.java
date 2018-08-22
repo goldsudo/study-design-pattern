@@ -1,4 +1,4 @@
-package com.goldsudo.pattern.Prototype;
+package com.goldsudo.pattern.prototype;
 
 public class Square extends Shape {
 

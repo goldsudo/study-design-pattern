@@ -1,4 +1,4 @@
-package com.goldsudo.pattern.Prototype;
+package com.goldsudo.pattern.prototype;
 
 public class Test {
     //将3个形状的对象实例加载到缓存中
